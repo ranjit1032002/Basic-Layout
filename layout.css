@@ -80,7 +80,7 @@ body{
 
 /* Media Queries */
 
-@media  screen and (max-width:1326px) 
+@media  screen and (max-width:1020px) 
 {
     #container{
         width:800px;
@@ -88,8 +88,8 @@ body{
     #content{
         width:70%;
     }
-    #sidebar a{
-        width:15%;
+    #sidebar{
+        width:30%;
     } 
 }
 @media screen and (max-width:1000px) 
@@ -98,10 +98,10 @@ body{
         width:500px;
     }    
     #content{
-        width:50%;
+        width:70%;
     }
-    #sidebar a{
-        width:15%;
+    #sidebar{
+        width:30%;
     } 
 }
 @media  screen and (max-width:510px) 
@@ -113,7 +113,7 @@ body{
         width:100%;
         float:none;
     }
-    #sidebar a{
+    #sidebar{
         width:100%;
         float:none;
     } 
